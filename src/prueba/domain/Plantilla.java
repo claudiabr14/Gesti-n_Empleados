@@ -3,10 +3,15 @@ package prueba.domain;
 import java.util.List;
 
 public class Plantilla extends Empleado {
+	public Plantilla(String dni, String nombre, String apellidos, double sueldoBase) {
+		super(dni, nombre, apellidos, sueldoBase);
+		// TODO Auto-generated constructor stub
+	}
+
 	private List<Empleado> empleados;
 	
-	public Plantilla() {
-		return;
+	public Plantilla plantilla() {
+		return null;
 	}
 	
 	public void agregarEmpleado(Empleado empleado) {
@@ -14,9 +19,7 @@ public class Plantilla extends Empleado {
 	}
 	
 	public List<Empleado> getEmpleadosPorNombre(String filtroNombre){
-		int List;
-		int Empleado;
-		return List<Empleado> empleados;
+		return empleados;
 	}
 
 	@Override

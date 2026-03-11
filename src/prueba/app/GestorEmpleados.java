@@ -24,7 +24,8 @@ public class GestorEmpleados implements EntradaSalida {
 	}
 	
 	private void listarTodos() {
-		System.out.println();
+		String nombre;
+		System.out.println(nombre, apellido ": " sueldo " €");
 	}
 	
 	private void listarPorFiltro() {
